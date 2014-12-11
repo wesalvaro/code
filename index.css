@@ -1,0 +1,12 @@
+.content {
+  width: 864px;
+  margin: auto;
+}
+
+body {
+  background-color: #272822;
+}
+
+.CodeMirror {
+  height: 90vh;
+}
