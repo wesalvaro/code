@@ -74,7 +74,8 @@ code.directive('mirror', function($rootScope) {
     },
     link: function(s, e) {
       mirror = CodeMirror(e[0], {
-        lineNumbers: true
+        lineNumbers: true,
+        tabSize: 2
       });
       doc = mirror.getDoc();
       if (s['theme']) mirror.setOption('theme', s['theme']);
